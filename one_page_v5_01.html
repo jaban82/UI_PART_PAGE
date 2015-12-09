@@ -173,7 +173,7 @@
             <div class="section-title">
                 <h1>about part</h1>
                 <span class="border"></span>
-                <p class="kor_txt">우리 파트에 대한 소개 및 기술을 한눈에 확인하세요.</p>
+                <p class="kor_txt" style="padding-bottom:10px">우리 파트에 대한 소개 및 기술을 한눈에 확인하세요.</p>
             </div>				
 			<!--/Section Title -->	
             <div class="screens">
@@ -1050,7 +1050,10 @@
     
     <!-- Tip. 웹 사이트 URL 맨 끝에 #test-bu를 붙이면 알림 표시줄을 항상 표시 -->
     <script> 
-	var $buoop = {vs:{i:9,f:25,o:12.1,s:7},c:2};  
+	var $buoop = {
+		vs:{i:9,f:25,o:12.1,s:7},
+		reminder:0
+	};  
 	function $buo_f(){ 
 	 var e = document.createElement("script"); 
 	 e.src = "//browser-update.org/update.min.js"; 
